@@ -1,5 +1,5 @@
 {
-  "name": "malaypatra",
+  "name": "charantejagattu",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
@@ -34,22 +36,23 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
     "vite": "^6.0.5",
-    "vite-plugin-svgr": "^4.3.0"
+    "vite-plugin-svgr": "^4.3.0",
+    "gh-pages": "^7.2.0"
   },
   "description": "My personal portfolio site",
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malay77patra/malaypatra.git"
+    "url": "git+https://github.com/charantejagattu/portfolio.git"
   },
   "keywords": [
-    "malay",
-    "malaypatra"
+    "portfolio",
+    ""
   ],
-  "author": "malay77patra@gmail.com",
+  "author": "gattucharanteja8143@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/malay77patra/malaypatra/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/malay77patra/malaypatra#readme"
+  "homepage": "https://charantejagattu.tech"
 }
